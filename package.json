@@ -1,0 +1,53 @@
+{
+  "name": "mcp-neo4j-remote",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Remote MCP Neo4j Memory Server with OAuth 2.1 and API Key Authentication",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "mcp",
+    "neo4j",
+    "memory",
+    "oauth",
+    "authentication",
+    "fastmcp",
+    "remote",
+    "docker"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {
+    "@descope/node-sdk": "^1.7.6",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "fastmcp": "^2.0.0",
+    "helmet": "^7.1.0",
+    "neo4j-driver": "^5.15.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
