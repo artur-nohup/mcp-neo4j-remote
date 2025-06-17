@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/artur-nohup-mcp-neo4j-remote-badge.png)](https://mseep.ai/app/artur-nohup-mcp-neo4j-remote)
+
 # MCP Neo4j Remote Server
 
 A remote Model Context Protocol (MCP) server that provides persistent memory capabilities through Neo4j graph database integration with OAuth 2.1 and API Key authentication.
